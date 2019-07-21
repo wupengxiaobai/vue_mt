@@ -1,0 +1,16 @@
+bg-image($url, $ext) {
+    background-image: url($url + '.' + $ext);
+}
+
+no-wrap() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+no-wrap-num($num) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+    overflow: hidden;
+}

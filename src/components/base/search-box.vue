@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="input-component">
     <input @focus="onFocus" @blur="onBlur" v-model="query" type="text" :placeholder="placeholder">
   </div>
 </template>
